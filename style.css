@@ -53,7 +53,7 @@ body, html {
 header, main, footer {
     flex: 1;
     width: 100vw;
-  }
+}
 
 /* HEADER */
 
@@ -304,6 +304,9 @@ footer {
     color: white;
     font-size: 16px;
 }
+.f-i-c-button-label:hover {
+    opacity: 0.5; /* Effet de survol */
+}
 
 /* SMALL BANNERS */
 
@@ -534,4 +537,77 @@ footer {
     font-size: 16px;
 }
 
+.r-b-button-label:hover {
+    opacity: 0.5; /* Effet de survol */
+}
+
 /* CATEGORY */
+
+.category {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 123px;
+}
+
+.category-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+}
+.category-top-h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 24px;
+}
+.category-top-imgs {
+    display: flex;
+    gap: 16px;
+}
+.c-t-img-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+.c-t-img-button:hover .button-image {
+    opacity: 0.5;
+}  
+.button-image {
+    width: 100%;
+    height: 100%;
+}
+
+.cards-list {
+    display: flex;
+    gap: 32px;
+}
+.card {
+    background-color: #EDEDED;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 160px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-content {
+    padding-top: 8px;
+}
+.card-content-h5 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+}
