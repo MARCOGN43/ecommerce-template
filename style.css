@@ -692,6 +692,15 @@ footer {
     color: black;
     font-size: 16px;
 }
+.p-i-c-div-p-2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+    padding: 0 25px;
+}
 .p-i-c-div-h4 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
