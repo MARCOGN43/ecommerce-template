@@ -161,13 +161,11 @@ li::marker {
 .link-sub-nav:hover {
     color: rgba(255, 255, 255, 1);
 }
-
 .img-sub-nav {
     opacity: 0.5;
 }
 
 /* FOOTER */
-
 footer {
     width: 100%;
     height: 464px;
@@ -611,3 +609,124 @@ footer {
     color: black;
     font-size: 16px;
 }
+
+/* PRODUCTS */
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 56px 123px;
+}
+
+.tags {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+.products-tags-h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+}
+
+.products-grid {
+    height: 880px;
+    display: grid;
+    grid-template-columns: repeat(4, 268px);
+    grid-template-rows: repeat(2, 432px);
+    gap: 16px 16px;
+    background-color: white;
+}
+
+.products-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+}
+.p-c-item {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 16px;
+    border-radius: 10px;
+}
+
+.p-c-i-div-like {
+    align-self: flex-end;
+}
+
+.p-c-i-div-photo {
+    height: 160px;
+    width: 160px;
+}
+.p-c-i-d-photo-img {
+    height: 100%;
+    width: 100%;
+}
+
+.p-i-c-div-text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.p-i-c-div-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.p-i-c-div-p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+}
+.p-i-c-div-h4 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 24px;
+}
+
+.p-i-c-div-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-i-c-button {
+    width: 188px;
+    height: 48px;
+    background: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 14px;
+}
+.p-i-c-button-label:hover {
+    opacity: 0.5;
+}
+
+
+
+
+
