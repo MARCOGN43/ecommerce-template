@@ -1,28 +1,33 @@
 /* Fonts Definitions */ 
-
+/* 300 */ @font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Light.ttf");
+}
 /* 400 */ @font-face {
-  font-family: "SF Pro Text";
+  font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 400;
-  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Regular.ttf");
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Regular.ttf");
 }
 /* 500 */ @font-face {
-  font-family: "SF Pro Text";
+  font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 500;
-  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Medium.ttf");
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Medium.ttf");
 }
 /* 600 */ @font-face {
-  font-family: "SF Pro Text";
+  font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 600;
-  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-SemiBold.ttf");
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-SemiBold.ttf");
 }
 /* 700 */ @font-face {
-  font-family: "SF Pro Text";
+  font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 700;
-  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Bold.ttf");
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Bold.ttf");
 }
 
 /* CSS General */
@@ -31,9 +36,9 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: "SF Pro Text";
+    font-family: "SF Pro Display";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
 }
 
@@ -54,7 +59,6 @@ body, html {
     gap: 32px;
     padding: 16px 123px;
 }
-
     /* logo */
 .logo-header {
     width: 96px;
@@ -86,12 +90,11 @@ body, html {
 input {
     font-size: 14px;
 }
-
     /* nav */
 .header-top-ul {
     width: 100%;
     display: flex;
-    gap: 52px;
+    gap: 50px;
 }
 .link-header {
     text-decoration: none;
@@ -104,7 +107,6 @@ input {
 ul, ol {
     list-style: none;
 }
-
     /* icons nav */
 .icons-header {
     display: flex;
@@ -160,23 +162,60 @@ li::marker {
 /* FOOTER */
 
 footer {
-    width: 100%;
-    display: flex;
+    width: 1366px;
+    height: 464px;
     padding: 104px 123px;
     background-color: black;
     color: white;
+    font-size: 14px;
 }
 
 .footer-infos {
     display: flex;
     justify-content: space-between;
+    width: 1120px;
+    height: 216px;
 }
 
-.footer-logo-text {
-    width: 384px;
+.footer-lt {
+    width: 420px;
+    height: 104px;
+    font-size: 14px;   
+}
+.footer-lt-text {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 24px 0 0 0;
 }
 
-.footer-nav-section {
+.footer-ns {
     display: flex;
     justify-content: space-between;
+    width: 623px;
+}
+.footer-ns-section {
+    width: 295.5px;
+}
+.footer-ns-h2 {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 0 20px 0;
+}
+.footer-ns-li {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 0 15px 0;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 173px;
 }
