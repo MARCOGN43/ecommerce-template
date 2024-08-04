@@ -162,7 +162,7 @@ li::marker {
 /* FOOTER */
 
 footer {
-    width: 1366px;
+    width: 100%;
     height: 464px;
     padding: 104px 123px;
     background-color: black;
@@ -218,4 +218,82 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 173px;
+}
+
+
+/* MAIN */
+
+/* FRAME IPHONE */
+
+.frame-iphone {
+    background-color: #211C24;
+    width: 100%;
+    padding: 0 123px;
+    height: 632px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame-iphone-img {
+    width: 406px;
+}
+
+.frame-iphone-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.f-i-c-title-p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 25px;
+    padding: 0 0 24px 0;
+}
+.f-i-c-title-h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 96px;
+    padding: 0 0 24px 0;
+}
+.f-i-c-title-h1-strong {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 96px;
+}
+
+.f-i-c-p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #909090;
+    font-size: 18px;
+    padding: 0 0 24px 0;
+}
+
+.f-i-c-button {
+    width: 191px;
+    height: 56px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
 }
