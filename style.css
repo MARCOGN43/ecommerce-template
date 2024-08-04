@@ -1,0 +1,182 @@
+/* Fonts Definitions */ 
+
+/* 400 */ @font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Regular.ttf");
+}
+/* 500 */ @font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Medium.ttf");
+}
+/* 600 */ @font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-SemiBold.ttf");
+}
+/* 700 */ @font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Bold.ttf");
+}
+
+/* CSS General */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+/* HEADER Top */ 
+.header-top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 16px 123px;
+}
+
+    /* logo */
+.logo-header {
+    width: 96px;
+    height: 32px;
+}
+    /* search bar */
+.search-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    width: 433px;
+    height: 56px;
+}
+.search-input {
+    border: none;
+    padding: 16px 34px 16px 16px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 398px;
+}
+.search-button {
+    border: none;
+    padding: 16px 0 16px 16px;
+    cursor: pointer;
+    background-color: #F5F5F5;
+}
+input {
+    font-size: 14px;
+}
+
+    /* nav */
+.header-top-ul {
+    width: 100%;
+    display: flex;
+    gap: 52px;
+}
+.link-header {
+    text-decoration: none;
+    font-weight: inherit;
+    color: rgba(0, 0, 0, 0.5);
+}
+.link-header:hover {
+    color: rgba(0, 0, 0, 1);
+}
+ul, ol {
+    list-style: none;
+}
+
+    /* icons nav */
+.icons-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.icons-link-header {
+    display: inline-block;
+    text-decoration: none;
+}
+.icons-link-header img {
+    display: block;
+    height: auto;
+}
+li::marker {
+    content: '';
+}
+
+/* HEADER Subnav*/
+
+.sub-nav {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    padding: 16px 123px;
+    background-color: #2e2e2e;
+}
+.sub-nav-menu {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-nav-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.link-sub-nav {
+    text-decoration: none;
+    font-weight: inherit;
+    color: rgba(255, 255, 255, 0.5);
+}
+.link-sub-nav:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.img-sub-nav {
+    opacity: 0.5;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    display: flex;
+    padding: 104px 123px;
+    background-color: black;
+    color: white;
+}
+
+.footer-infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo-text {
+    width: 384px;
+}
+
+.footer-nav-section {
+    display: flex;
+    justify-content: space-between;
+}
